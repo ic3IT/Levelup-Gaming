@@ -31,10 +31,9 @@ The goal of this challenge is to help you learn by building simple blockchain-ba
 1. Start with Level 1 and progress through the levels in order.
 2. Fork this repository and submit the deployed smart contracts for each game.
 
-### Rules
+## ---
 
-- You must complete each level within the allotted time.
-- Individual work is encouraged, but collaboration is up to you.
+
 - Join the discussion in our [Telegram group](https://t.me/+5mW5gsUKqxQ5ZGYx).
 - Share your progress on Twitter using the hashtag #LevelUp.
 
