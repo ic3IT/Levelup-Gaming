@@ -1,6 +1,5 @@
 # Level Up: A 3-Level Blockchain Gaming Challenge
 
-[**Get Started**](#getting-started)
 
 ## Overview
 
