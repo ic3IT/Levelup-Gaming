@@ -3,7 +3,7 @@
 
 ## Overview
 
-Welcome to **Level Up**, a 3-level blockchain gaming challenge powered by Venium. This isn't just about completing tasks—it's a way to improve your skills in blockchain game development. Each level has you working on a different game, while advancing your knowledge in smart contract development and blockchain integration.
+Welcome to **Level Up**, a 3-level blockchain gaming challenge powered by Venium. This isn't just about completing tasks—it's a way to improve your skills in blockchain game development. Each level has you working on a different game, while advancing your knowledge in web3 gaming.
 
 ## Goal
 
