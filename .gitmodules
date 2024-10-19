@@ -1,0 +1,3 @@
+[submodule "Levelup-Gaming/lib/forge-std"]
+	path = Levelup-Gaming/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
