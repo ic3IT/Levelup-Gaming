@@ -14,3 +14,16 @@ docs/
 .env
 
 .github/
+# Ignore the entire .github/workflows directory
+.github/workflows/
+
+# Other existing ignore rules...
+node_modules/
+coverage
+coverage.json
+typechain
+typechain-types
+
+# Hardhat files
+cache
+artifacts
