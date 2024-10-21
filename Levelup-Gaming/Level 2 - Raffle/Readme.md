@@ -1,46 +1,46 @@
-# Simple Raffle Smart Contract - Tutorial Guideline
+# Simple Raffle Smart Contract - Level 2
 
-Welcome to the Simple Raffle smart contract tutorial! This guide will help you implement a basic raffle system on the Ethereum blockchain.
+Hey there, ready to build a raffle on the blockchain? Let's dive in!
 
-## Objectives
+## What We're Aiming For
 
-1. Implement a basic Raffle contract
-2. Learn about handling multiple participants and ticket purchases
-3. Implement a fair winner selection mechanism
-4. Manage raffle states and prize distribution
+1. Create a basic Raffle contract (nothing too fancy)
+2. Figure out how to handle multiple players buying tickets
+3. Set up a fair way to pick a winner (no cheating allowed!)
+4. Manage the raffle's lifecycle and dish out the prize
 
-## Steps
+## Game Plan
 
-1. Set up the contract structure
-   - Define the contract with the appropriate Solidity version and license
-   - Import necessary OpenZeppelin contracts (e.g., ReentrancyGuard)
+1. Set up your contract:
+   - Use the latest Solidity version
+   - Grab some OpenZeppelin contracts to make life easier
 
-2. Implement core functionality
-   - Define state variables (ticketPrice, participants, raffleState)
-   - Create events for key actions (e.g., TicketPurchased, WinnerSelected)
-   - Implement the main `buyTicket` function
-   - Add a function to start and end the raffle
+2. Core raffle stuff:
+   - Set a ticket price
+   - Keep track of who's playing
+   - Create some events to log important stuff
+   - Build the main `buyTicket` function
+   - Add ways to start and end the raffle
 
-3. Handle raffle logic
-   - Ensure tickets can only be purchased when the raffle is open
-   - Store participant addresses for each ticket purchased
-   - Implement a function to select a winner randomly
+3. Raffle logic:
+   - Make sure people can only buy tickets when the raffle's open
+   - Keep a list of everyone who bought a ticket
+   - Create a function to pick a winner (randomly, of course)
 
-4. Implement prize distribution
-   - Create a function to distribute the prize to the winner
-   - Ensure only the contract owner can trigger winner selection and prize distribution
+4. Handling the prize:
+   - Set up a way to send the prize to the winner
+   - Make sure only you (the owner) can pick the winner and send the prize
 
-5. Implement security measures
-   - Use OpenZeppelin's Ownable for access control
-   - Implement ReentrancyGuard to prevent reentrancy attacks
+5. Keep it secure:
+   - Use OpenZeppelin's Ownable to control who can do what
+   - Throw in some ReentrancyGuard to prevent sneaky attacks
 
-6. Emit events and handle errors
-   - Emit events for ticket purchases, raffle state changes, and winner selection
-   - Use `require` statements to handle invalid inputs or conditions
-
+6. Events and error handling:
+   - Emit events when tickets are bought, raffle state changes, and a winner is picked
+   - Use `require` statements to catch any weird situations
 
 ## Deployment
 
-- Deploy the contract to a testnet (e.g., Goerli or Sepolia)
+When you're done, deploy your contract to a testnet like Goerli or Sepolia to see it in action.
 
-Good luck with your implementation! Remember to prioritize fairness and security in your raffle smart contract.
+Remember, the goal is to keep things fair and secure. Good luck, and have fun building your raffle!
